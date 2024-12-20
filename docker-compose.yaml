@@ -10,7 +10,7 @@ services:
       - ./html:/usr/share/nginx/html
 
   flask:
-    image: "bukhinfm/flask:1.0"
+    #image: "bukhinfm/flask:1.0"
     build: .
     container_name: flask
     env_file:
