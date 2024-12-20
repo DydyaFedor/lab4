@@ -9,4 +9,4 @@ RUN pip install --upgrade pip
 COPY ./Commits_lab3/requirements.txt /Commits_lab3/requirements.txt
 RUN pip install -r requirements.txt
 
-COPY ./flask_app /Commits_lab3
+COPY ./Commits_lab3 /Commits_lab3
